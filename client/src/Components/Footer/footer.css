@@ -1,0 +1,14 @@
+.footerContainer {
+    display: flex;  
+    flex-direction: column;
+    height: 200px;
+    background: #0077B6;
+    align-items: center;
+    width: 100%;
+}
+.footerCopyRight{
+    margin-top: auto;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}

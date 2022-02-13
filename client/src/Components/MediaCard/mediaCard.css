@@ -1,0 +1,24 @@
+
+.mediaCardContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.mediaBottom{
+    display: flex;
+    justify-content: space-around;
+    background: skyblue;
+    width: 100%;
+}
+
+.icon:hover{
+    color: white;
+    transition: color .5s;
+    cursor: pointer;
+}
+.iconCounter{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}

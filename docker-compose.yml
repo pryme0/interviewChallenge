@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  client:
+    image: client
+    build:
+      context: ./client
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+  api:
+    image: api
+    build:
+      context: ./api
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 9000:9000
