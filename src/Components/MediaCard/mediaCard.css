@@ -1,0 +1,12 @@
+
+.mediaCardContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.mediaBottom{
+    display: flex;
+    justify-content: space-around;
+    background: red;
+}
